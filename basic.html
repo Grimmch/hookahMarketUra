@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header class="header-wrap">
+        <a href="#" class="banner">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-lg-push-3 col-lg-6 col-xs-12">
+                        <img src="images/banner.png">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <div class="navigation">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-xs-12 col-md-9 col-lg-7">
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-navbar-collapse" aria-expanded="false">
+                                    <span class="sr-only"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">Главная <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="#">Скидки</a></li>
+                                    <li><a href="#">Оптом</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Полезная информация</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-xs-12 col-md-2 col-lg-3">
+                        <div class="menu-sub">
+                            <a href="#">
+                                <span class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                <span class="ms-text">Доставка по всей Украине</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-2 col-lg-2">
+                        <div class="menu-lang">
+                            <span class="icon"><i class="fas fa-globe"></i></span>
+                            <span class="ml-text lang-ua"><a href="">UA</a></span>
+                            <span class="ml-text lang-ru active"><a href="">RU</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub_header" class="container">
+            <div class="row d-flex">
+                <div class="col-xs-12 col-md-2 col-lg-3">
+                    <div class="sh-logo">
+                        <div class="sh-logo-img">
+                        </div>
+                        <div class="sh-logo-text">
+                            <div class="sh-logo-title">
+                                HOOKAH
+                            </div>
+                            <div class="sh-logo-sub-title">
+                                MARKET
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-9 col-lg-9">
+                    <div class="contacts-cards">
+                        <div class="contacts-card line-separator-header">
+                            <div class="cc-text">По вопросам статуса заказа и отправления:
+                            </div>
+                            <div class="cc-sub-info-row">
+                                <div class="cc-sub-info">
+                                    <div class="cc-phone">+38 073 482 29 58
+                                    </div>
+                                    <div class="cc-icons-row">
+                                        <div class="cc-icons">
+                                            <a href="#">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-telegram-plane"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-viber"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-separator">
+                                </div>
+                                <div class="cc-sub-info">
+                                    <div class="cc-phone">+38 073 482 29 58
+                                    </div>
+                                    <div class="cc-icons-row">
+                                        <div class="cc-icons">
+                                            <a href="#">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-telegram-plane"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-viber"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacts-card line-separator-header">
+                            <div class="cc-text">Консультации и оптовые закупки:
+                            </div>
+                            <div class="cc-sub-info-row">
+                                <div class="cc-sub-info">
+                                    <div class="cc-phone">+38 073 482 29 58
+                                    </div>
+                                    <div class="cc-icons-row">
+                                        <div class="cc-icons">
+                                            <a href="#">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-telegram-plane"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-viber"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacts-card line-separator-header">
+                            <div class="cc-text">Сотрудничество, решение споров, опт:
+                            </div>
+                            <div class="cc-sub-info-row">
+                                <div class="cc-sub-info">
+                                    <div class="cc-phone">+38 073 482 29 58
+                                    </div>
+                                    <div class="cc-icons-row">
+                                        <div class="cc-icons">
+                                            <a href="#">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-telegram-plane"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-viber"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-9 col-lg-3">
+                            <div class="contacts-card">
+                                <div class="cc-text">График работы
+                                </div>
+                                <div class="cc-sub-info-row">
+                                    <div class="cc-sub-info ">
+                                        <div class="cc-phone">ПТ: с 11:00 до 20:00
+                                        </div>
+                                        <div class="cc-phone">СБ: с 12:00 до 17:00
+                                        </div>
+                                        <div class="cc-phone">ВСК: Выходной
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <aside class="column-left col-xs-12 col-md-2 col-lg-3">
+                <div class="row">
+                    <div>
+                        <div class="catalog-menu-bar">
+                            <a href="#" class="menu-text">
+                                <img class="icon" src="images/object1.png">
+                                <span class="menu-text">Каталог товаров</span>
+                            </a>
+                        </div>
+                        <div class="catalog-menu-list menu-sub-list">
+                            <ul class="list-ul-choose">
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-calian icon-optic" src="images/calian.png">
+                                        <span class="">Кальяны</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-menu-list icon-optic" src="images/leaf.png">
+                                        <span class="">Табак</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-menu-list icon-optic" src="images/ugli.png">
+                                        <span class="">Укли</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-menu-list icon-optic" src="images/goblet.png">
+                                        <span class="">Чаши</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-menu-list icon-optic" src="images/hose.png">
+                                        <span class="">Аксессуары</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-calian icon-optic" src="images/sigar.png">
+                                        <span>Электронные сигареты</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-menu-list icon-optic" src="images/liquids.png">
+                                        <span>Жидкости для парения</span>
+                                    </a></li>
+                                <li class="text-list"><a href="#">
+                                        <img class="icon-menu-list icon-optic" src="images/discount.png">
+                                        <span>Уценка</span>
+                                    </a></li>
+
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Топ Продаж</h2>
+                            <div class="sale-look">
+                                <a>смотреть все</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sales-bar">
+                                <div class="flex-cont">
+                                    <a href="#" class="">
+                                        <img class="icon icon-optic" src="images/layers.png">
+                                    </a>
+                                    <a href="#" class="">
+                                        <img class="icon icon-optic" src="images/heart-grey.png">
+                                    </a>
+                                </div>
+                                <div class="sales-name-text">
+                                    <a href="#" class="sales-name-text">
+                                        <img class="imageL" src="images/alphaX.png">
+                                        <div class="sales-name-text">
+                                            <span>Кальян</span>
+                                            <span class="sales-names-b"><br>Alpha Hookah<br> Model X</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="menu-second-count">
+                                    <a href="#" class="menu-text">
+                                        <span class="icon"><i class="icon glyphicon glyphicon-star"></i></span>4.4
+                                        <span class="menu-text">13 отзывов</span>
+                                        <div class="sales-name-text">
+                                            <span class="sales-price">4300₴ </span><span
+                                                class="standart-price">5000₴</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <button class="sh-cart">
+                                    <span class="icon">
+                                        <i class="glyphicon glyphicon-shopping-cart"></i> В корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sales-bar">
+                                <div class="flex-cont">
+                                    <a href="#" class="">
+                                        <img class="icon icon-optic" src="images/layers.png">
+                                    </a>
+                                    <a href="#" class="">
+                                        <img class="icon icon-optic" src="images/heart-grey.png">
+                                    </a>
+                                </div>
+                                <div class="sales-name-text">
+                                    <a href="#" class="sales-name-text">
+                                        <img class="imageL" src="images/dailyHookah.png">
+                                        <div class="sales-name-text">
+                                            <span>Табак</span>
+                                            <span class="sales-names-b"><br>Daily Hookah 25гр.<br> Свободная куба</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="menu-second-count">
+                                    <a href="#" class="menu-text">
+                                        <span class="icon"><i class="icon glyphicon glyphicon-star"></i></span>4.9
+                                        <span class="menu-text">5 отзывов</span>
+                                        <div class="sales-name-text">
+                                            <span class="sales-price">150₴ </span><span class="standart-price"></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <button class="sh-cart">
+                                    <span class="icon">
+                                        <i class="glyphicon glyphicon-shopping-cart"></i> В корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="col-xs-12 col-md-9 col-lg-9 column-right">
+                <div class="row d-flex flex-cont">
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <form action="/hms/accommodations" method="GET">
+                            <div class="row list-search-none">
+                                <div class="input-group ">
+                                    <input type="text" class="form-control search-bar-left"
+                                        placeholder="Поиск по товарам" id="txtSearch" />
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-primary search-bar-right " type="submit">
+                                            <span class="glyphicon glyphicon-search search-text"> Искать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <div class="flex-cont">
+                            <a href=" #" class="menu-text menu-profile">
+                                <span class="icon">
+                                    <i class="glyphicon glyphicon-user"></i></span>
+                                <span class="menu-text">Войти</span>
+                            </a>
+                            <a href="#" class="menu-text menu-profile">
+                                <span class="icon">
+                                    <i class="glyphicon glyphicon-retweet"></i></span>
+                                <span class="menu-text">Сравнение</span>
+                            </a>
+                            <a href="#" class="menu-text menu-profile">
+                                <span class="icon">
+                                    <i class="glyphicon glyphicon-heart-empty"></i></span>
+                                <span class="menu-text">Избранное</span>
+                            </a>
+                            <a href="#" class="menu-text menu-profile">
+                                <span class="icon">
+                                    <i class="glyphicon glyphicon-shopping-cart"></i></span>
+                                <span class="menu-text">Корзина</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation-email">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-md-12 col-lg-4">
+                        <h3 class="sales-names-b">Новости и акции только для своих</h2>
+                            <span class="cc-text">Узнавай обо всём самым первым, чтобы точно не упустить наши
+                                уникальные
+                                предложения и акции!
+                                </br></br>Делись с нами своей почтой и мы сообщим вам обо всех выгодных скидках и
+                                новых
+                                продуктах! </span>
+                    </div>
+                    <div class="col-xs-12 col-md-12 col-lg-3">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                            <button type="submit" class="sh-cart menu-text">Подписаться на рассылку</button>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-md-12 col-lg-2">
+                        <div class="line-separator-bar-down">
+                            <h3 class="sales-names-b">Наш инстаграм</h2>
+                                <span class="cc-text">Ве самые актуальные новости подборки и миксы
+                                    </br></br>Советы от кальянных мастеров Hookah Market </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <div class="iphone-insta">
+                <img class="" src="images/iphoneinsta.png">
+            </div>
+        </div>
+    </div>
+    <footer class="footer-wrap">
+        <div class="navigation">
+            <div id="sub_footer" class="container">
+                <div class="line-separator-footer margin-top-footer">
+                    <div class="row d-flex">
+                        <div class="col-xs-12 col-md-2 col-lg-2">
+                            <div class="sh-logo">
+                                <div class="sh-logo-text">
+                                    <div class="sh-logo-header">
+                                        HOOKAH
+                                    </div>
+                                    <div class="sh-logo-sub-header">
+                                        MARKET
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-9 col-lg-10">
+                            <div class="contacts-cards">
+                                <div class="contacts-card line-separator-footer-small">
+                                    <div class="cc-text">По вопросам статуса заказа и отправления:
+                                    </div>
+                                    <div class="cc-sub-info-row ">
+                                        <div class="line-separator-footer-small">
+                                            <div class="cc-sub-info">
+                                                <div class="cc-phone-footer mar-right-ls">+380734822958
+                                                </div>
+                                                <div class="cc-icons-row">
+                                                    <div class="cc-icons">
+                                                        <a href="#">
+                                                            <i class="fab fa-whatsapp"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fab fa-telegram-plane"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="fab fa-viber"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cc-sub-info ">
+                                            <div class="cc-phone-footer">+380734822958
+                                            </div>
+                                            <div class="cc-icons-row">
+                                                <div class="cc-icons">
+                                                    <a href="#">
+                                                        <i class="fab fa-whatsapp"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-telegram-plane"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-viber"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts-card line-separator-footer-small">
+                                    <div class="cc-text">Консультации и оптовые закупки:
+                                    </div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="cc-phone-footer">+38 073 482 29 58
+                                            </div>
+                                            <div class="cc-icons-row">
+                                                <div class="cc-icons">
+                                                    <a href="#">
+                                                        <i class="fab fa-whatsapp"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-telegram-plane"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-viber"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts-card line-separator-footer-small">
+                                    <div class="cc-text">Сотрудничество, решение споров, опт:</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="cc-phone-footer">+38 073 482 29 58</div>
+                                            <div class="cc-icons-row">
+                                                <div class="cc-icons">
+                                                    <a href="#">
+                                                        <i class="fab fa-whatsapp"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-telegram-plane"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-viber"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-9 col-lg-3">
+                                    <div class="contacts-card">
+                                        <div class="cc-text">График работы
+                                            <div class="cc-sub-info-row">
+                                                <div class="cc-sub-info ">
+                                                    <div class="cc-phone-footer">ПТ: с 11:00 до 20:00</div>
+                                                    <div class="cc-phone-footer">СБ: с 12:00 до 17:00</div>
+                                                    <div class="cc-phone-footer">ВСК: Выходной</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-9 col-lg-3">
+                                    <div class="row center-but-bar">
+                                        <div class="sh-cart-promo">
+                                            <a href="#" class="menu-text-promo">Магазин на карте</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-xs-12 col-md-9 col-lg-12">
+                        <div class="contacts-cards">
+                            <div class="col-xs-12 col-md-9 col-lg-2">
+                                <div class="contacts-card">
+                                    <div class="cc-phone-footer">Покупателю</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="column-footer">
+                                                <a href="#" class="cc-text mar-footer">Каталог</a>
+                                                <a href="#" class="cc-text mar-footer">Наши акции</a>
+                                                <a href="#" class="cc-text mar-footer">Частные вопросы</a>
+                                                <a href="#" class="cc-text mar-footer">Доставка</a>
+                                                <a href="#" class="cc-text mar-footer">Статус заказа</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-2">
+                                <div class="contacts-card">
+                                    <div class="cc-phone-footer">Бизнесу</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="column-footer">
+                                                <a href="#" class="cc-text mar-footer">Оптовые закупки</a>
+                                                <a href="#" class="cc-text mar-footer">Поставщикам</a>
+                                                <a href="#" class="cc-text mar-footer">Дистрибьюция</a>
+                                                <a href="#" class="cc-text mar-footer">Для Бизнеса</a>
+                                                <a href="#" class="cc-text mar-footer">Франшиза</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-2">
+                                <div class="contacts-card ">
+                                    <div class="cc-phone-footer">О компании</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="column-footer">
+                                                <a href="#" class="cc-text mar-footer">О нас</a>
+                                                <a href="#" class="cc-text mar-footer">Магазин на карте</a>
+                                                <a href="#" class="cc-text mar-footer">Вакансии</a>
+                                                <a href="#" class="cc-text mar-footer">Отзывы</a>
+                                                <a href="#" class="cc-text mar-footer">Документация</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-2">
+                                <div class="contacts-card ">
+                                    <div class="cc-phone-footer">Разделы</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="column-footer">
+                                                <a href="#" class="cc-text mar-footer">Кальяны</a>
+                                                <a href="#" class="cc-text mar-footer">Электронные сигареты</a>
+                                                <a href="#" class="cc-text mar-footer">Табак</a>
+                                                <a href="#" class="cc-text mar-footer">Аксессуары</a>
+                                                <a href="#" class="cc-text mar-footer">Комплектующие</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-2">
+                                <div class="contacts-card ">
+                                    <div class="cc-phone-footer">Социальные сети</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="cc-icons-row">
+                                                <div class="cc-icons">
+                                                    <a href="#">
+                                                        <i class="fab fa-whatsapp"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-telegram-plane"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-viber"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-viber"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fab fa-viber"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span></span>
+                                    <span></span>
+                                    <a href="#" class="cc-phone-footer mar-footer">Карта сайта</a>
+                                    <a href="#" class="cc-phone-footer mar-footer">Политика конфиденциальности</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-3">
+                                <div class="contacts-card ">
+                                    <div class="cc-text">Интернет магазин Hookah Market</div>
+                                    <div class="cc-sub-info-row">
+                                        <div class="cc-sub-info">
+                                            <div class="column-footer">
+                                                <div class="cc-text">Табачная продукция, кальяны, аксессуары,
+                                                    комплектующие, мерч, электронные сигареты</div>
+                                                <div class="cc-phone-footer margin-none">&copy Hookah Market </div>
+                                                <div class="cc-phone-footer margin-none">Все права защищены</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
